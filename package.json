@@ -1,0 +1,11 @@
+{
+  "name": "data_by_numbers",
+  "version": "1.0.0",
+  "description": "data of gender and age",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rob W",
+  "license": "ISC"
+}
