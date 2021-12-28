@@ -8,6 +8,47 @@
     <title>Data-by-numbers</title>
 </head>
 <body>
-    
+    <section>
+        <h1>Average age and gender data</h1>
+        <form id="genderAgeForm">
+            <div class="form-top-gender-wrapper">
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="Other">
+                <label for="other">Other</label>
+            </div>
+            <div class="form-bottom-gender-wrapper">
+                <label for="age">Enter age</label>
+                <input type="number" name="age" id="age">
+            </div>
+
+            <input type="submit" value="Submit" class="submit-btn">
+        </form>
+    </section>
+
+    <section>
+        <div class="displayData">
+            <div class="male">
+                <h3>Number of men: <span id="totalMale">0</span></h3>
+                <h3>Average age men: <span id="averageAgeMale"></span></h3>
+            </div>
+            <div class="female">
+                <h3>Number of women: <span id="totalFamale">0</span></h3>
+                <h3>Average age women: <span id="averageAgeFemale"></span></h3>
+            </div>
+            <div class="other">
+                <h3>Number of others: <span id="totalOthers">0</span></h3>
+                <h3>Average age others: <span id="averageAgeOthers"></span></h3>
+            </div>
+            <div class="total">
+                <h3>Total number of people: <span id="totalNumber">0</span></h3>
+                <h3>Average age people: <span id="averageAgeAll"></span></h3>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
 </body>
 </html>
