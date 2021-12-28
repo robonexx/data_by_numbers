@@ -1,4 +1,5 @@
 // easy programming exercise for myself
+// just rehearsing a bit
 
 // get the form
 
